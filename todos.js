@@ -21,15 +21,15 @@ const todos = [
   },
 
   {
-    text: 'Whack a Mole',
-    complete: false,
+    text: 'Apply BootStrap',
+    complete: true,
     priority: 1,
     id: 3,
   },
 
   {
     text: 'Find a Job',
-    complete: true,
+    complete: false,
     priority: 2,
     id: 4,
   },

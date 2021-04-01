@@ -1,3 +1,27 @@
+* {
+  font-weight: bolder;
+}
+
+.body {
+  background-color: black;
+  margin-bottom: 50px;
+}
+
 .complete {
   text-decoration: line-through;
+}
+
+.container {
+  background-color: black;
+  height: 1200px;
+  width: 1000px;
+  padding: 100px;
+  margin-bottom: 10px;
+}
+.jumbotron {
+  padding: 10px;
+}
+.button {
+  display: flex;
+  align-items: center;
 }

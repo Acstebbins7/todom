@@ -23,7 +23,7 @@ function printTodo(todo) {
   newElement.classList.add(`priority${todo.priority}`);
   newElement.classList.add("todoElement");
   newElement.id = todo.id;
-  newElement.innerHTML = `<input type="checkbox" class="completed" ${checkedStr}">...${todo.text}`;
+  newElement.innerHTML = `<input type="checkbox" class="completed" ${checkedStr}"> ${todo.text}`;
   todoList.appendChild(newElement);
 }
 
@@ -47,7 +47,7 @@ function printTodo(todo) {
   newElement.classList.add(`priority${todo.priority}`);
   newElement.classList.add("todoElement");
   newElement.id = todo.id;
-  newElement.innerHTML = `<input type="checkbox" class="completed" ${checkedStr}">...${todo.text}`;
+  newElement.innerHTML = `<input type="checkbox" class="completed" ${checkedStr}"> ${todo.text}`;
   todoList.appendChild(newElement);
 }
 

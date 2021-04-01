@@ -8,27 +8,37 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
-  <body>
-    <div class="jumbotron bg-success">
-      <h1>My List Of Chores</h1>
-        <button id="clearTodos" class="btn btn-danger">DELETE LIST</button>
-        <section>
-          <label for="todo-input">Add to your todo list!</label>
-          <input class="todo-input" type="text" name="todo-input">
-          <label for="priority">Priority</label>
-          <select id="priority" name="priority">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select>
-          <button class="add-todo" >ADD</button>
-        </section>
-      </div>
+  <body class="container justify-content-center">
     <div class="jumbotron bg-primary">
+      <h1>My List Of Chores</h1>
+      <br>
       <ol class="todo-list"></ol>
+      <br>
+      <button id="clearTodos" class="btn btn-lg btn-danger">DELETE LIST</button>
     </div>  
+      <div class="jumbotron bg-success">
+        <h1 class="color-primary">Have More To Do?</h1>
+
+          <br>
+          <br>
+
+          <div class="jumbotron justify-content-*-center bg-warning">
+            <label for="todo-input">Words Go Here -> </label>
+            <input class="todo-input" type="text" name="todo-input">
+            <br>
+            <label for="priority">Priority</label>
+            <select id="priority" name="priority">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <br>
+            <button class="add-todo btn btn-outline-info btn-lg" >ADD</button>
+          </div>
+          <br>
+        </div>
 
 
     <script src="./todos.js"></script>

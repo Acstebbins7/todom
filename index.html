@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,17 +6,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <div class="app">
-      <h1>Todo</h1>
+    <div class="jumbotron bg-success">
+      <h1>My List Of Chores</h1>
+        <button id="clearTodos" class="btn btn-danger">DELETE LIST</button>
         <section>
           <label for="todo-input">Add to your todo list!</label>
           <input class="todo-input" type="text" name="todo-input">
-          <button class="add-todo">ADD</button>
+          <label for="priority">Priority</label>
+          <select id="priority" name="priority">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <button class="add-todo" >ADD</button>
         </section>
+      </div>
+    <div class="jumbotron bg-primary">
       <ol class="todo-list"></ol>
-    </div>
+    </div>  
+
+
     <script src="./todos.js"></script>
     <script src="./main.js"></script>
   </body>

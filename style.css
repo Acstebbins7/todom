@@ -1,5 +1,7 @@
 * {
-  font-weight: bolder;
+  resize: both;
+  font-weight: bold;
+  margin: 10px;
 }
 
 .body {
@@ -18,7 +20,23 @@
   padding: 100px;
   margin-bottom: 10px;
 }
+
 .jumbotron {
   padding: 10px;
-  margin: 10px;
+  margin: 100px;
+}
+
+#top {
+  margin-left: 450px;
+  font-weight: bolder;
+}
+
+#add {
+  margin-left: 250px;
+  font-weight: bolder;
+}
+
+#clear {
+  margin-left: 350px;
+  font-weight: bolder;
 }

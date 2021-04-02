@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
-  <body class="container justify-content-center">
+  <body class="container justify-content-center bg-img">
     <div class="jumbotron bg-primary">
       <h1>My List Of Chores</h1>
       <br>
@@ -18,8 +18,8 @@
     </div>  
       <div class="jumbotron bg-success">
         <h1 class="color-primary">Have More To Do?</h1>
-          <div class="jumbotron justify-content-*-center bg-warning">
-            <label for="todo-input">Words Go Here -> </label>
+          <div class="jumbotron justify-content-*-center bg-primary">
+            <label for="todo-input" placeholder="add new todo here">Words Go Here -> </label>
             <input class="todo-input" type="text" name="todo-input">
             <br>
             <label for="priority">Priority</label>
@@ -36,7 +36,7 @@
               <option value="10">10</option>
             </select>
             <br>
-            <button id="add" class="add-todo btn btn-outline-info btn-lg">ADD</button>
+            <button id="add" class="add-todo btn btn-success btn-lg">ADD</button>
           </div>
           <br>
         </div>

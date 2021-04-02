@@ -3,8 +3,8 @@
   margin: 10px;
 }
 
-.body {
-  background-color: black;
+.container {
+  background-image: url("./images/TODOMBackground.png");
   margin-bottom: 50px;
 }
 
@@ -38,10 +38,10 @@ button {
 
 #add {
   margin-left: 250px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 #clearTodos {
   margin-left: 350px;
-  font-weight: bolder;
+  font-weight: bold;
 }
